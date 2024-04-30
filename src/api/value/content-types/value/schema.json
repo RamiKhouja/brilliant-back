@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "values",
+  "info": {
+    "singularName": "value",
+    "pluralName": "values",
+    "displayName": "Value"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    }
+  }
+}

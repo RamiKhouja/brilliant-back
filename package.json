@@ -1,0 +1,33 @@
+{
+  "name": "seoof",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-color-picker": "^4.14.0",
+    "@strapi/plugin-documentation": "^4.14.0",
+    "@strapi/plugin-i18n": "4.13.7",
+    "@strapi/plugin-users-permissions": "4.13.7",
+    "@strapi/strapi": "4.13.7",
+    "better-sqlite3": "8.6.0",
+    "strapi-location-field-plugin": "^1.2.2",
+    "strapi-plugin-menus": "^1.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "555381c2-4c03-442f-9492-47ba9010a764"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
